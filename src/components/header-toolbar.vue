@@ -2,9 +2,12 @@
   <!-- v-if="headerOpen" -->
   <transition>
     <div>
-      <header
+      <!-- <header
         class="header-component"
         :class="headerOpen ? 'showHeader' : 'hideHeader'"
+      > -->
+      <header
+        class="header-component"
       >
         <dx-toolbar class="header-toolbar">
           <dx-item
@@ -35,12 +38,13 @@
           </dx-item>
 
           <dx-item location="after">
-            <div class="user-name">{{ userName }}</div>
+            <div class="user-name"><img src="../assets/user.svg" /> {{ userName }}</div>
           </dx-item>
           <dx-item location="after">
             <dx-button
               class="logoutBtn"
               type="normal"
+              icon="login"
               styling-mode="text"
               :hover-state-enabled="false"
               :focus-state-enabled="false"
@@ -53,9 +57,9 @@
           </dx-item>
         </dx-toolbar>
       </header>
-      <span class="hamburger" :class="{ on: headerOpen }"
+      <!-- <span class="hamburger" :class="{ on: headerOpen }"
         ><span @click.prevent="showHideHeader()"></span
-      ></span>
+      ></span> -->
     </div>
   </transition>
 </template>

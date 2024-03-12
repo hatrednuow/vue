@@ -1,6 +1,6 @@
-import "devextreme/dist/css/dx.material.custom-scheme.css";
-// import './themes/generated/theme.base.css';
-// import './themes/generated/theme.additional.css';
+// import "devextreme/dist/css/dx.softblue.css";
+import './themes/generated/theme.base.css';
+import './themes/generated/theme.additional.css';
 import { createApp } from "vue";
 import router from "./router";
 import Store from "./store";

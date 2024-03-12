@@ -11,7 +11,226 @@
       </ul>
       <div class="layout-inner">
         <div class="inner-div">
-          <h2>
+          <div class="status"><span class="dot green"></span>성서</div>
+            <table class="tabMain">
+              <colgroup>
+                <col width="30%">
+                <col width="calc(35% / 2)">
+                <col width="calc(35% / 2)">
+                <col width="35%">
+              </colgroup>
+              <tr>
+                <th rowspan="2">전력량KWH</th>
+                <th colspan="2">일</th>
+                <th>월</th>   
+              </tr>
+              <tr>
+                <td colspan="2">180kwh</td>
+                <td>4,208kwh</td>
+              </tr>
+              <tr>
+                <th>요금</th>
+                <td colspan="2">11,671,142원</td>
+                <td>352,586,627원</td>
+              </tr>
+              <tr>
+                <th>피크</th>
+                <td>7,434kw</td>
+                <th>피크일자</th>
+                <td>02-07  04:30</td>
+              </tr>
+            </table>
+            
+            <table class="tabMain m30">
+              <colgroup>
+                <col width="30%">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+              </colgroup>
+              <tr>
+                <th rowspan="2">총사용량</th>
+                <th>380</th>
+                <th>440</th>   
+                <th>220</th>  
+                <th>3300</th> 
+                <th>합계</th> 
+              </tr>
+              <tr>
+                <td>180kw</td>
+                <td>4,208kw</td>
+                <td>1,081kw</td>
+                <td>89kw</td>
+                <td>5,557kw</td>
+              </tr>
+              <tr>
+                <th>공장</th>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+              </tr>
+              <tr>
+                <th>콤프</th>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+              </tr>
+            </table>
+
+            <table class="tabMain m30">
+              <!-- <colgroup>
+                <col width="30%">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+              </colgroup> -->
+              <tr>
+                <th></th>
+                <th>변압기</th>
+                <th>유효전력</th>   
+                <th>공장</th>  
+                <th>콤프</th> 
+                <th>피크</th> 
+                <th>피크일자</th> 
+                <th>예비율</th> 
+              </tr>
+              <!-- loop -->
+              <tr>
+                <th rowspan="6" class="bb">1수전실</th>
+                <td>4410#1</td>
+                <td>784kw</td>
+                <td>11.5%</td>
+                <td>4.2%</td>
+                <td>1,003.30</td>
+                <td>2024-02-02 14:29</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <!-- loop -->
+              <!-- loop -->
+              <tr>
+                <th rowspan="6">2수전실</th>
+                <td>4410#1</td>
+                <td>784kw</td>
+                <td>11.5%</td>
+                <td>4.2%</td>
+                <td>1,003.30</td>
+                <td>2024-02-02 14:29</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <!-- loop -->
+              <!-- loop -->
+              <tr>
+                <th rowspan="6" colspan="2" class="brbl10">합계</th>
+                <td>5,557kw</td>
+                <td>85%</td>
+                <td>NaN%</td>
+                <td>7,276.8kw</td>
+                <th colspan="3"></th>
+              </tr>
+              
+              <!-- loop -->
+              
+            </table>
+
+          <!-- <h2>
             <i class="dx-icon-event"></i>성서
             <img
               v-if="data.statusSS == '정상'"
@@ -24,8 +243,8 @@
               style="height: 10px"
               class="statusErr blink-statusErr"
             />
-          </h2>
-          <div class="table-grid">
+          </h2> -->
+          <!-- <div class="table-grid">
             <div>
               <mon3tableTop type="SS"></mon3tableTop>
             </div>
@@ -35,10 +254,222 @@
             <div style="border: 1px solid red">
               <mon3tableBottom type="SS"></mon3tableBottom>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="inner-div">
-          <h2>
+          <div class="status"><span class="dot red"></span>현풍</div>
+            <table class="tabMain">
+                <tr>
+                  <th rowspan="2">전력량KWH</th>
+                  <th colspan="2">일</th>
+                  <th>월</th>   
+                </tr>
+                <tr>
+                  <td colspan="2">180kwh</td>
+                  <td>4,208kwh</td>
+                </tr>
+                <tr>
+                  <th>요금</th>
+                  <td colspan="2">11,671,142원</td>
+                  <td>352,586,627원</td>
+                </tr>
+                <tr>
+                  <th>피크</th>
+                  <td>7,434kw</td>
+                  <th>피크일자</th>
+                  <td>02-07  04:30</td>
+                </tr>
+              </table>
+
+              <table class="tabMain m30">
+              <colgroup>
+                <col width="30%">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+              </colgroup>
+              <tr>
+                <th rowspan="2">총사용량</th>
+                <th>380</th>
+                <th>440</th>   
+                <th>220</th>  
+                <th>3300</th> 
+                <th>합계</th> 
+              </tr>
+              <tr>
+                <td>180kw</td>
+                <td>4,208kw</td>
+                <td>1,081kw</td>
+                <td>89kw</td>
+                <td>5,557kw</td>
+              </tr>
+              <tr>
+                <th>공장</th>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+                <td>2.6%</td>
+              </tr>
+              <tr>
+                <th>콤프</th>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+                <td>0.0%</td>
+              </tr>
+            </table>
+
+            <table class="tabMain m30">
+              <!-- <colgroup>
+                <col width="30%">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+                <col width="calc(70% / 6)">
+              </colgroup> -->
+              <tr>
+                <th></th>
+                <th>변압기</th>
+                <th>유효전력</th>   
+                <th>공장</th>  
+                <th>콤프</th> 
+                <th>피크</th> 
+                <th>피크일자</th> 
+                <th>예비율</th> 
+              </tr>
+              <!-- loop -->
+              <tr>
+                <th rowspan="6" class="bb">1수전실</th>
+                <td>4410#1</td>
+                <td>784kw</td>
+                <td>11.5%</td>
+                <td>4.2%</td>
+                <td>1,003.30</td>
+                <td>2024-02-02 14:29</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <!-- loop -->
+              <!-- loop -->
+              <tr>
+                <th rowspan="6">2수전실</th>
+                <td>4410#1</td>
+                <td>784kw</td>
+                <td>11.5%</td>
+                <td>4.2%</td>
+                <td>1,003.30</td>
+                <td>2024-02-02 14:29</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>324kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <tr>
+                <td>2209#1</td>
+                <td>784kw</td>
+                <td>4.3%</td>
+                <td>0.0%</td>
+                <td>370.71</td>
+                <td>2024-02-08 07:09</td>
+                <td>%</td>
+              </tr>
+              <!-- loop -->
+              <!-- loop -->
+              <tr>
+                <th rowspan="6" colspan="2" class="brbl10">합계</th>
+                <td>5,557kw</td>
+                <td>85%</td>
+                <td>NaN%</td>
+                <td>7,276.8kw</td>
+                <th colspan="3"></th>
+              </tr>
+              
+              <!-- loop -->
+              
+            </table>
+          <!-- <h2>
             <i class="dx-icon-event"></i>현풍
             <img
               v-if="data.statusHP == '정상'"
@@ -51,8 +482,8 @@
               style="height: 10px"
               class="statusErr blink-statusErr"
             />
-          </h2>
-          <div class="table-grid">
+          </h2> -->
+          <!-- <div class="table-grid">
             <div>
               <mon3tableTop type="HP"></mon3tableTop>
             </div>
@@ -61,7 +492,7 @@
             </div>
 
             <mon3tableBottom type="HP"></mon3tableBottom>
-          </div>
+          </div> -->
         </div>
         <!-- <div class="inner-div">
           <h2><i class="dx-icon-event"></i>샤시</h2>
@@ -200,14 +631,16 @@ export default {
 </script>
 <style scoped>
 .mona3Layout {
-  height: calc(100vh - 144px);
+  /* height: calc(100vh - 144px); */
+  height:fit-content;
+  
 }
 .layout-inner {
   display: grid;
   /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 10px;
-  padding: 5px 10px;
+  column-gap: 40px;
+  padding: 0 40px;
 }
 
 .inner-div h2,

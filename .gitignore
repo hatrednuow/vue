@@ -22,3 +22,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 *.svn
+src/assets/bg_home_tile.svg

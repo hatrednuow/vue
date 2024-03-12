@@ -11,16 +11,491 @@
       </ul>
       <div class="layout-inner">
         <div class="inner-div">
-          <h2><i class="dx-icon-event"></i>성서</h2>
+          <div class="status"><span class="dot green"></span>성서</div>
+          <table class="tabMain">
+            <colgroup>
+              <col width="33.3%">
+              <col width="33.3%">
+              <col width="33.3%">
+            </colgroup>
+            <tr>
+              <th>냉동기1</th>
+              <th>냉동기2</th>
+              <th>냉동기3</th>   
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>ON</td>
+            </tr>
+          </table>
+          <!-- tab zebra -->
+          <table class="tabMain zeb m30">
+            <colgroup>
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+            </colgroup>
+            <tr>
+              <th colspan="3">냉수</th>
+              <th colspan="3">냉각수</th> 
+            </tr>
+            <tr>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+            </tr>
+            <tr>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+            </tr>
+            <tr>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+            </tr>
+            <tr>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+            </tr>
+            <tr>
+              <td colspan="6">
+                <table class="inf">
+                <colgroup>
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                </colgroup>
+                <tr>
+                  <td>펌프1</td>
+                  <td>펌프2</td>
+                  <td>펌프3</td>
+                  <td>펌프4</td>
+                  <td>펌프1</td>
+                  <td>펌프2</td>
+                  <td>펌프3</td>
+                  <td>펌프4</td>
+                </tr>
+                <tr>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          <!-- tab sebra -->
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+            </colgroup>
+            <tr>
+              <th>냉각탑휀1</th>
+              <th>냉각탑휀2</th>
+              <th>냉각탑휀3</th>
+              <th>냉각탑휀4</th>
+              <th>냉각탑휀5</th>
+              <th>냉각탑휀6</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+            </colgroup>
+            <tr>
+              <th>A동</th>
+              <th>B동#1</th>
+              <th>B동#2</th>
+              <th>B동#3</th>
+              <th>C동#1</th>
+              <th>C동#2</th>
+              <th>C동#3</th>
+              <th>D동</th>
+              <th>E동</th>
+            </tr>
+            <tr>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="50%">
+              <col width="50%">
+            </colgroup>
+            <tr>
+              <th>보일러1</th>
+              <th>보일러2</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>ON</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="25%">
+              <col width="25%">
+              <col width="25%">
+              <col width="25%">
+            </colgroup>
+            <tr>
+              <th>보일러1 공급온도</th>
+              <th>보일러1 환수온도</th>
+              <th>보일러2 공급온도</th>
+              <th>보일러2 환수온도</th>
+            </tr>
+            <tr>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="33.3%">
+              <col width="33.3%">
+              <col width="33.3%">
+            </colgroup>
+            <tr>
+              <th>온수펌프1</th>
+              <th>온수펌프2</th>
+              <th>온수펌프3</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+            </tr>
+          </table>
+          <table class="tabMain lasTab pad10 m30">
+            <colgroup>
+              <col width="20%">
+              <col width="40%">
+              <col width="40%">
+            </colgroup>
+            <tr>
+              <th rowspan="2">가스</th>
+              <th class="bb">일</th>
+              <td>0.38계산</td>
+            </tr>
+            <tr>
+              <th class="bb">일</th>
+              <td>765035계산</td>
+            </tr>
+            <tr>
+              <th rowspan="2" class="brbl10">가스</th>
+              <th>일</th>
+              <td>0.38계산</td>
+            </tr>
+            <tr>
+              <th class="bb">일</th>
+              <td>765035계산</td>
+            </tr>
+          </table>
+          <!-- <h2><i class="dx-icon-event"></i>성서</h2>
           <div class="table-grid">
             <mon3_1SSTable></mon3_1SSTable>
-          </div>
+          </div> -->
         </div>
         <div class="inner-div">
-          <h2><i class="dx-icon-event"></i>현풍</h2>
+          <div class="status"><span class="dot red"></span>현풍</div>
+          <table class="tabMain">
+            <colgroup>
+              <col width="50%">
+              <col width="50%">
+            </colgroup>
+            <tr>
+              <th>냉동기1</th>
+              <th>냉동기2</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+            </tr>
+          </table>
+          <!-- tab zebra -->
+          <table class="tabMain zeb m30">
+            <colgroup>
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+            </colgroup>
+            <tr>
+              <th colspan="3">냉수</th>
+              <th colspan="3">냉각수</th> 
+            </tr>
+            <tr>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+            </tr>
+            <tr>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+            </tr>
+            <tr>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+              <td>1 냉수공급</td>
+              <td>2 냉수공급</td>
+              <td>3 냉수공급</td>
+            </tr>
+            <tr>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+              <td>20.7℃</td>
+              <td>25.5℃</td>
+              <td>20.7℃</td>
+            </tr>
+            <tr>
+              <td colspan="6">
+                <table class="inf">
+                <colgroup>
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                  <col width="12.5%">
+                </colgroup>
+                <tr>
+                  <td>펌프1</td>
+                  <td>펌프2</td>
+                  <td>펌프3</td>
+                  <td>펌프4</td>
+                  <td>펌프1</td>
+                  <td>펌프2</td>
+                  <td>펌프3</td>
+                  <td>펌프4</td>
+                </tr>
+                <tr>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                  <td>OFF</td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          <!-- tab sebra -->
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+              <col width="16.6666666667%">
+            </colgroup>
+            <tr>
+              <th>냉각탑휀1</th>
+              <th>냉각탑휀2</th>
+              <th>냉각탑휀3</th>
+              <th>냉각탑휀4</th>
+              <th>냉각탑휀5</th>
+              <th>냉각탑휀6</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+              <col width="11.1111111111%">
+            </colgroup>
+            <tr>
+              <th>A동</th>
+              <th>B동#1</th>
+              <th>B동#2</th>
+              <th>B동#3</th>
+              <th>C동#1</th>
+              <th>C동#2</th>
+              <th>C동#3</th>
+              <th>D동</th>
+              <th>E동</th>
+            </tr>
+            <tr>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+              <td>16.6℃</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="50%">
+              <col width="50%">
+            </colgroup>
+            <tr>
+              <th>보일러1</th>
+              <th>보일러2</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>ON</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="25%">
+              <col width="25%">
+              <col width="25%">
+              <col width="25%">
+            </colgroup>
+            <tr>
+              <th>보일러1 공급온도</th>
+              <th>보일러1 환수온도</th>
+              <th>보일러2 공급온도</th>
+              <th>보일러2 환수온도</th>
+            </tr>
+            <tr>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+              <td>44.1℃</td>
+            </tr>
+          </table>
+          <table class="tabMain pad10 m30">
+            <colgroup>
+              <col width="33.3%">
+              <col width="33.3%">
+              <col width="33.3%">
+            </colgroup>
+            <tr>
+              <th>온수펌프1</th>
+              <th>온수펌프2</th>
+              <th>온수펌프3</th>
+            </tr>
+            <tr>
+              <td>OFF</td>
+              <td>OFF</td>
+              <td>OFF</td>
+            </tr>
+          </table>
+          <table class="tabMain lasTab pad10 m30">
+            <colgroup>
+              <col width="20%">
+              <col width="40%">
+              <col width="40%">
+            </colgroup>
+            <tr>
+              <th rowspan="2">가스</th>
+              <th class="bb">일</th>
+              <td>0.38계산</td>
+            </tr>
+            <tr>
+              <th class="bb">일</th>
+              <td>765035계산</td>
+            </tr>
+            <tr>
+              <th rowspan="2" class="brbl10">가스</th>
+              <th>일</th>
+              <td>0.38계산</td>
+            </tr>
+            <tr>
+              <th class="bb">일</th>
+              <td>765035계산</td>
+            </tr>
+          </table>
+          <!-- <h2><i class="dx-icon-event"></i>현풍</h2>
           <div class="table-grid">
             <mon3_1HPTable></mon3_1HPTable>
-          </div>
+          </div> -->
         </div>
         <!-- <div class="inner-div">
           <h2><i class="dx-icon-event"></i>샤시</h2>
@@ -143,24 +618,27 @@ export default {
 </script>
 <style scoped>
 .mona3Layout {
-  height: calc(100vh - 144px);
+  /* height: calc(100vh - 144px); */
+  height:fit-content;
+  
 }
 .layout-inner {
   display: grid;
+  /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  column-gap: 10px;
-  padding: 5px 10px;
+  column-gap: 40px;
+  padding: 0 40px;
 }
+
 .inner-div h2,
 .inner-div h2 i {
   margin: 0;
   font-size: 1rem;
   font-weight: bold;
 }
-.table-grid {
-  height: calc(100vh - 210px);
-  display: grid;
-  gap: 10px;
+
+.table-grid div {
+  padding-bottom: 5px;
 }
 .tabnav {
   font-size: 0;
@@ -204,8 +682,4 @@ export default {
   background: #fff;
   color: #1d4980;
 }
-/* .tr-table ul li {
-  float: left;
-  margin: 5px;
-} */
 </style>

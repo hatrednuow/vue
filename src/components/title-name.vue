@@ -124,15 +124,17 @@ export default {
 }
 
 .menu-title {
-  font-size: 1.55rem;
+  font-size: 2rem;
   letter-spacing: -0.5px;
   line-height: 40px;
-  font-weight: 600;
+  font-weight: bold;
   margin-right: 15px;
 }
 
 .menu-path {
-  color: #666;
-  font-size: 0.85rem;
+  /* color: #666; */
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 5px;
 }
 </style>
