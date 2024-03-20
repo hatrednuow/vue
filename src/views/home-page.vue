@@ -135,7 +135,7 @@
           <img class="mac4" src="../assets/factory/icon-cloudmachine.gif" alt="">
           <img class="mac5" src="../assets/factory/icon-machine1-alt.gif" alt="">
           <img class="mac6" src="../assets/factory/icon-machine2-alt.gif" alt="">
-          <img class="mac7" src="../assets/factory/icon-machine3.gif" alt="">
+          <img class="mac7" src="../assets/factory/icon-machine3-alt-2.gif" alt="">
           <img class="mac8" src="../assets/factory/icon-train-alt.gif" alt="">
           <img class="mac9" src="../assets/factory/icon-factory.gif" alt="">
           <img class="cloud1" src="../assets/factory/icon-cloud.gif" alt="">
